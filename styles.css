@@ -6,8 +6,12 @@
 }
 
 body {
-    background-color: rgb(252, 254, 125);
+    background-color: rgb(253, 255, 143);
     text-align: center;
+}
+.bg{
+    height: 100%;
+    width: 100%;
 }
 
 nav {
@@ -50,11 +54,11 @@ nav ul :hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(252, 254, 125);
+    background-color: rgb(255, 200, 0);
 }
 
 .click button {
-    background-color: rgb(163, 166, 0);
+    background-color: rgb(253, 255, 143);
     color: rgb(12, 12, 12);
     padding: 10px 20px;
     border-radius: 20px;
@@ -68,11 +72,16 @@ nav ul :hover {
     background-color: rgb(255, 255, 255);
 }
 
-.click h1 {
+h1 {
     font-family: 'Montserrat', sans-serif;
+    padding: 20px;
 }
 h2 {
     text-align: center;
+}
+img{
+    height: 100%;
+    width: 100%;
 }
 
 
