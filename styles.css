@@ -125,5 +125,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #555;
 }
-
+img{
+    height: 100%;
+    width: 100%;
+}
 
