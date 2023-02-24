@@ -1,74 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: lightyellow;
-    font-family: Arial, sans-serif;
+    background-color: rgb(252, 254, 125);
+    text-align: center;
 }
 
 nav {
-    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1e1e1e;
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    align-items: center;
 }
 
-nav li {
-    margin: 0 10px;
+nav ul li {
+    padding: 0 12px;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+
+nav ul li a {
+    color: rgb(252, 252, 252);
 }
 
-header {
-    text-align: center;
-    padding: 50px 0;
+nav ul :hover {
+    color: rgb(132, 132, 132);
+}
+.smartPark img {
+    width: 95px;
+    height: 77px;
+    padding: 0 12px;
 }
 
-section {
-    margin: 50px;
+.click {
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(252, 254, 125);
 }
 
+.click button {
+    background-color: rgb(163, 166, 0);
+    color: rgb(12, 12, 12);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.click button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.click h1 {
+    font-family: 'Montserrat', sans-serif;
+}
 h2 {
     text-align: center;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-}
 
-label {
-    margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-input[type="submit"] {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #555;
-}
