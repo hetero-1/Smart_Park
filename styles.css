@@ -6,13 +6,31 @@
 }
 
 body {
-    background-color: rgb(252, 254, 125);
+    background-color: rgb(253, 255, 143);
     text-align: center;
 }
 
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 65%;
+}
+
+.title span{
+    color: rgb(253, 255, 143) ;
+}
+
+.join {
+    position: absolute;
+    left: 90%;
+}
+
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
-    background-color: #1e1e1e;
+    background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -34,27 +52,24 @@ nav ul li a {
 }
 
 nav ul :hover {
-    color: rgb(132, 132, 132);
+    color: rgb(253, 255, 143);
 }
 .smartPark img {
     width: 95px;
-    height: 77px;
+    height: 95px;
     padding: 0 12px;
 }
 
 .click {
-    width: 50%;
-    border-radius: 20px;
-    padding: 30px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(252, 254, 125);
+    margin: 10px;
+    padding: 10px;
+}
+.click h1{
+    margin-top: 100px;
 }
 
 .click button {
-    background-color: rgb(163, 166, 0);
+    background-color: rgb(253, 255, 143);
     color: rgb(12, 12, 12);
     padding: 10px 20px;
     border-radius: 20px;
@@ -68,11 +83,50 @@ nav ul :hover {
     background-color: rgb(255, 255, 255);
 }
 
-.click h1 {
+h1 {
     font-family: 'Montserrat', sans-serif;
+    padding: 20px;
 }
 h2 {
     text-align: center;
 }
 
+.service {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
 
